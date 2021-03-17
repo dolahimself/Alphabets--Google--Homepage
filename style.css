@@ -139,6 +139,7 @@ footer p {
 	display: none;
 }
 
+/*this is to switched between the two side images according to screensize*/
 @media screen and (max-width: 767px){   
     #bg-cropped{      
         content:url("https://abc.xyz/img/bg-cropped-mobile.jpg");

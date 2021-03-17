@@ -16,4 +16,4 @@ $(document).ready(function(){
 	});
 });
 
-document.getElementById("demo").style.fontFamily = "Impact,Charcoal,sans-serif";
+// document.getElementById("demo").style.fontFamily = "Impact,Charcoal,sans-serif";
