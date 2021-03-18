@@ -6,7 +6,7 @@ $(document).ready(function(){
 			var newStr = myStr.substring(0, maxLength);
 			var removedStr = myStr.substring(maxLength, $.trim(myStr).length);
 			$(this).empty().html(newStr);
-			$(this).append(' <a href="javascript:void(0);" class="read-more">more</a>');
+			$(this).append(' <a href="javascript:void(0);" class="read-more">more</a>').css("text-decoration", "none");
 			$(this).append('<span class="more-text">' + removedStr + '</span>');
 		}
 	});
@@ -17,3 +17,5 @@ $(document).ready(function(){
 });
 
 // document.getElementById("demo").style.fontFamily = "Impact,Charcoal,sans-serif";
+
+
